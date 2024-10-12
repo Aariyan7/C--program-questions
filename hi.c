@@ -474,7 +474,7 @@ int main() {
    
     surfaceArea = 3 * sqrt(25 + 10 * sqrt(5)) * a * a;
 
-    // Displaying the surface area
+   
     printf("Surface Area of the
 
 */
@@ -552,7 +552,6 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    // Check if the number is odd using bitwise AND operator
     if (num & 1) {
         printf("%d is an odd number.\n", num);
     } else {
@@ -573,14 +572,14 @@ int main() {
     int X;
     int totalMatchsticks;
 
-    // Read the number of floors
+  
     printf("Enter the number of floors in the pyramid: ");
     scanf("%d", &X);
 
-    // Calculate the total number of matchsticks using the formula
+ 
     totalMatchsticks = X * X;  // X^2 gives the total matchsticks needed
 
-    // Print the result
+    
     printf("Total number of matchsticks required to form a pyramid of %d floors: %d\n", X, totalMatchsticks);
 
     return 0;
